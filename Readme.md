@@ -1,7 +1,7 @@
 # Quant
 
 *Project Link*: [Quant AI](https://quant-ai.vercel.app/)  
-*YouTube Demo*: [Watch Here](https://youtu.be/QovqIPYbpAg)
+*YouTube Demo*: [Watch Here](https://www.youtube.com/watch?v=MLqrxzlu2KQ)
 
 ---
 
