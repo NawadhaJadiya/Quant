@@ -1,104 +1,126 @@
-Quant
+# Quant
 
-Project link - https://quant-ai.vercel.app/
-youtube link - https://youtu.be/QovqIPYbpAg
+**Project Link**: [Quant AI](https://quant-ai.vercel.app/)  
+**YouTube Demo**: [Watch Here](https://youtu.be/QovqIPYbpAg)
 
--------------Discription--------------
+---
 
-Synly is a powerful tool designed to analyze social media accounts for engagement and reach. It provides users with actionable insights on how to improve their social media presence. By simply entering a username, Synly automates the process of reviewing posts and analyzing account activity, saving users from the tedious task of manual evaluation.
+## Description
+**Synly** is a powerful tool designed to analyze social media accounts for engagement and reach. It provides users with actionable insights to improve their social media presence. By simply entering a username, Synly automates the process of reviewing posts and analyzing account activity, saving users from the tedious task of manual evaluation.
 
--------------Key Features----------
+---
 
-        *Analyze real-time data of social media accounts and posts.
+## Key Features
 
-        *Generate insights for improving engagement and reach.
+- Analyze real-time data of social media accounts and posts.
+- Generate insights for improving engagement and reach.
+- Provide relevant analysis points based on social media presence.
+- Simplify the process of social media evaluation with minimal user input.
 
-        *Provide relevant analysis points based on social media presence.
+---
 
-        *Simplify the process of social media evaluation with minimal user input.
+## Purpose
+Synly was created to address the challenges users face when trying to manually review and optimize their social media performance. With Synly, users gain a comprehensive understanding of their social media metrics and receive suggestions to enhance their online visibility.
 
--------------Purpose-------------
+---
 
-Synly was created to address the challenges users face when trying to manually review and optimize their social media performance. With Synly, users can gain a comprehensive understanding of their social media metrics and receive suggestions to enhance their online visibility.
+## Installation Instructions
 
--------------Installation Instructions-------------
+### Tools Required
 
-#Tools Required
+- **LangFlow**: Set up an account and connect it to DataStax Astra.
+- **DataStax Astra**: Use it to manage and create a vector database.
 
-        *LangFlow: Set up an account and connect it to DataStax Astra.
+### Steps
 
-        *DataStax Astra: Use it to manage and create a vector database.
+1. Set up a LangFlow account and connect it with your DataStax Astra database.
+2. Create a vector database in DataStax Astra.
+3. Provide the appropriate prompt to the LangFlow model.
+4. Clone the project repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/NawadhaJadiya/Quant
+   cd Quant
+   ```
+5. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. Start the application and follow the instructions to integrate the frontend.
 
-#Steps
+---
 
-        *Set up a LangFlow account and connect it with your DataStax Astra database.
+## Usage
 
-        *Create a vector database in DataStax Astra.
+Synly can be used by anyone with a public social media account. To get started:
 
-        *Provide the appropriate prompt to the LangFlow model.
+1. Enter the profile URL of the social media account you wish to analyze.
+2. Interact with the chatbot by asking questions about your social media performance.
+3. Receive detailed insights and suggestions for improvement.
 
-        *Clone the project repository and navigate to the project directory.
+---
 
+## Example Questions
 
-#Install the required dependencies:
-        pip install -r requirements.txt
+- "What is the engagement rate of my posts?"
+- "How can I improve my reach?"
+- "Which post has the best performance?"
 
-Start the application and follow the instructions to integrate the frontend.
+---
 
--------------Usage-------------
+## Tech Stack
 
-        *Synly can be used by anyone with a public social media account. To get started:
+- **Database**: Astra DB, DataStax
+- **Backend**: Python (FastAPI Framework)
+- **Frontend**: JavaScript, React
+- **Integration**: LangFlow
 
-        *Enter the profile URL of the social media account you wish to analyze.
+---
 
-        *Interact with the chatbot by asking questions about your social media performance.
-
-        *Receive detailed insights and suggestions for improvement.
-
--------------Example Questions-------------
-
-"What is the engagement rate of my posts?"
-
-"How can I improve my reach?"
-
-"Which post has the best performance?"
-
--------------Tech Stack-------------
-
-        *Database: Astra DB, DataStax
-        *Backend: Python (FastAPI Framework)
-        *Frontend: JavaScript, React
-        *Integration: LangFlow
-
--------------Contributing-------------
+## Contributing
 
 We welcome contributions to enhance Synly. To contribute:
 
-#Clone the Repository
-git clone https://github.com/NawadhaJadiya/Quant
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NawadhaJadiya/Quant
+   ```
+2. Create a Virtual Environment to manage dependencies:
+   ```bash
+   python -m venv env
+   ```
+3. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     source env/Scripts/activate
+     ```
+   - On Mac/Linux:
+     ```bash
+     source env/bin/activate
+     ```
+4. Fork the repository.
+5. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+6. Commit your changes:
+   ```bash
+   git commit -m 'Add feature'
+   ```
+7. Push the branch:
+   ```bash
+   git push origin feature-name
+   ```
+8. Open a pull request.
 
-#Create a Virtual Environment
-Set up a Python virtual environment to manage dependencies:
+---
 
-python -m venv env
-Activate the virtual environment: 
-On Windows:
-source env/Scripts/activate
+## Acknowledgments
 
-On Mac/Linux:
-source env/bin/activate
+Thanks to **LangFlow** and **DataStax** for providing the tools to power Synly’s database and AI functionalities. Credit to the open-source libraries and frameworks used in the project.
 
-#Fork the repository.
+---
 
-Create a feature branch: git checkout -b feature-name.
-Commit your changes: git commit -m 'Add feature'.
-Push the branch: git push origin feature-name.
-Open a pull request.
+## Contact
 
--------------Acknowledgments-------------
+For questions, suggestions, or feedback, feel free to contact us at **nawadhajadiya@gmail.com**.
 
-Thanks to LangFlow and DataStax for providing the tools to power Synly’s database and AI functionalities.
-Credit to the open-source libraries and frameworks used in the project.
-
--------------Contact-------------
-For questions, suggestions, or feedback, feel free to contact us at nawadhajadiya@gmail.com.
