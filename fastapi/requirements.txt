@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+apify-client
+astrapy>=0.7.4
+pydantic
+python-dotenv
+requests
+aiohttp>=3.8.0
+asyncio>=3.4.3
+google-generativeai
