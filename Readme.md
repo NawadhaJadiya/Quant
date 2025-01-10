@@ -1,4 +1,7 @@
-Synly
+Quant
+
+Project link - https://quant-ai.vercel.app/
+youtube link - 
 
 -------------Discription--------------
 
@@ -49,7 +52,7 @@ Start the application and follow the instructions to integrate the frontend.
         *Enter the profile URL of the social media account you wish to analyze.
 
         *Interact with the chatbot by asking questions about your social media performance.
-        
+
         *Receive detailed insights and suggestions for improvement.
 
 -------------Example Questions-------------
