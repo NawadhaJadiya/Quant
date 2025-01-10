@@ -5,9 +5,13 @@ Synly
 Synly is a powerful tool designed to analyze social media accounts for engagement and reach. It provides users with actionable insights on how to improve their social media presence. By simply entering a username, Synly automates the process of reviewing posts and analyzing account activity, saving users from the tedious task of manual evaluation.
 
 -------------Key Features----------
+
         *Analyze real-time data of social media accounts and posts.
+
         *Generate insights for improving engagement and reach.
+
         *Provide relevant analysis points based on social media presence.
+
         *Simplify the process of social media evaluation with minimal user input.
 
 -------------Purpose-------------
@@ -17,14 +21,21 @@ Synly was created to address the challenges users face when trying to manually r
 -------------Installation Instructions-------------
 
 #Tools Required
+
         *LangFlow: Set up an account and connect it to DataStax Astra.
+
         *DataStax Astra: Use it to manage and create a vector database.
 
 #Steps
+
         *Set up a LangFlow account and connect it with your DataStax Astra database.
+
         *Create a vector database in DataStax Astra.
+
         *Provide the appropriate prompt to the LangFlow model.
+
         *Clone the project repository and navigate to the project directory.
+
 
 #Install the required dependencies:
         pip install -r requirements.txt
@@ -32,9 +43,13 @@ Synly was created to address the challenges users face when trying to manually r
 Start the application and follow the instructions to integrate the frontend.
 
 -------------Usage-------------
+
         *Synly can be used by anyone with a public social media account. To get started:
+
         *Enter the profile URL of the social media account you wish to analyze.
+
         *Interact with the chatbot by asking questions about your social media performance.
+        
         *Receive detailed insights and suggestions for improvement.
 
 -------------Example Questions-------------
