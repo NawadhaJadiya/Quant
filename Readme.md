@@ -1,12 +1,12 @@
 # Quant
 
-**Project Link**: [Quant AI](https://quant-ai.vercel.app/)  
-**YouTube Demo**: [Watch Here](https://youtu.be/QovqIPYbpAg)
+*Project Link*: [Quant AI](https://quant-ai.vercel.app/)  
+*YouTube Demo*: [Watch Here](https://youtu.be/QovqIPYbpAg)
 
 ---
 
 ## Description
-**Synly** is a powerful tool designed to analyze social media accounts for engagement and reach. It provides users with actionable insights to improve their social media presence. By simply entering a username, Synly automates the process of reviewing posts and analyzing account activity, saving users from the tedious task of manual evaluation.
+*Quant* is a powerful tool designed to analyze social media accounts for engagement and reach. It provides users with actionable insights to improve their social media presence. By simply entering a username, Quant automates the process of reviewing posts and analyzing account activity, saving users from the tedious task of manual evaluation.
 
 ---
 
@@ -20,7 +20,7 @@
 ---
 
 ## Purpose
-Synly was created to address the challenges users face when trying to manually review and optimize their social media performance. With Synly, users gain a comprehensive understanding of their social media metrics and receive suggestions to enhance their online visibility.
+Quant was created to address the challenges users face when trying to manually review and optimize their social media performance. With Quant, users gain a comprehensive understanding of their social media metrics and receive suggestions to enhance their online visibility.
 
 ---
 
@@ -28,8 +28,8 @@ Synly was created to address the challenges users face when trying to manually r
 
 ### Tools Required
 
-- **LangFlow**: Set up an account and connect it to DataStax Astra.
-- **DataStax Astra**: Use it to manage and create a vector database.
+- *LangFlow*: Set up an account and connect it to DataStax Astra.
+- *DataStax Astra*: Use it to manage and create a vector database.
 
 ### Steps
 
@@ -37,21 +37,36 @@ Synly was created to address the challenges users face when trying to manually r
 2. Create a vector database in DataStax Astra.
 3. Provide the appropriate prompt to the LangFlow model.
 4. Clone the project repository and navigate to the project directory:
-   ```bash
+   bash
    git clone https://github.com/NawadhaJadiya/Quant
    cd Quant
-   ```
+   
 5. Install the required dependencies:
-   ```bash
+   bash
    pip install -r requirements.txt
-   ```
+   
 6. Start the application and follow the instructions to integrate the frontend.
+
+---
+
+## Environment Variables
+
+The following environment variables need to be configured for the application to run:
+
+- PORT: The port number the application will run on.
+- BASE_API_URL: The base URL for the API.
+- LANGFLOW_ID: Your LangFlow ID.
+- FLOW_ID: The Flow ID for LangFlow.
+- APPLICATION_TOKEN: The application token for authentication.
+- APIFY_API_TOKEN: The API token for Apify.
+- ASTRAPY_API_TOKEN: The API token for AstraPy.
+- GEMINI_API_KEY: The API key for Gemini.
 
 ---
 
 ## Usage
 
-Synly can be used by anyone with a public social media account. To get started:
+Quant can be used by anyone with a public social media account. To get started:
 
 1. Enter the profile URL of the social media account you wish to analyze.
 2. Interact with the chatbot by asking questions about your social media performance.
@@ -69,58 +84,57 @@ Synly can be used by anyone with a public social media account. To get started:
 
 ## Tech Stack
 
-- **Database**: Astra DB, DataStax
-- **Backend**: Python (FastAPI Framework)
-- **Frontend**: JavaScript, React
-- **Integration**: LangFlow
+- *Database*: Astra DB, DataStax
+- *Backend*: Python (FastAPI Framework)
+- *Frontend*: JavaScript, React
+- *Integration*: LangFlow
 
 ---
 
 ## Contributing
 
-We welcome contributions to enhance Synly. To contribute:
+We welcome contributions to enhance Quant. To contribute:
 
 1. Clone the repository:
-   ```bash
+   bash
    git clone https://github.com/NawadhaJadiya/Quant
-   ```
+   
 2. Create a Virtual Environment to manage dependencies:
-   ```bash
+   bash
    python -m venv env
-   ```
+   
 3. Activate the virtual environment:
    - On Windows:
-     ```bash
+     bash
      source env/Scripts/activate
-     ```
+     
    - On Mac/Linux:
-     ```bash
+     bash
      source env/bin/activate
-     ```
+     
 4. Fork the repository.
 5. Create a feature branch:
-   ```bash
+   bash
    git checkout -b feature-name
-   ```
+   
 6. Commit your changes:
-   ```bash
+   bash
    git commit -m 'Add feature'
-   ```
+   
 7. Push the branch:
-   ```bash
+   bash
    git push origin feature-name
-   ```
+   
 8. Open a pull request.
 
 ---
 
 ## Acknowledgments
 
-Thanks to **LangFlow** and **DataStax** for providing the tools to power Synly’s database and AI functionalities. Credit to the open-source libraries and frameworks used in the project.
+Thanks to *LangFlow* and *DataStax* for providing the tools to power Quant’s database and AI functionalities. Credit to the open-source libraries and frameworks used in the project.
 
 ---
 
 ## Contact
 
-For questions, suggestions, or feedback, feel free to contact us at **nawadhajadiya@gmail.com**.
-
+For questions, suggestions, or feedback, feel free to contact us at *nawadhajadiya@gmail.com*.
