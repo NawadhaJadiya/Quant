@@ -1,7 +1,7 @@
 Quant
 
 Project link - https://quant-ai.vercel.app/
-youtube link - 
+youtube link - https://youtu.be/QovqIPYbpAg
 
 -------------Discription--------------
 
